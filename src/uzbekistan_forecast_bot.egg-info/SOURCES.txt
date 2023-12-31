@@ -1,0 +1,6 @@
+main.py
+setup.py
+src/uzbekistan_forecast_bot.egg-info/PKG-INFO
+src/uzbekistan_forecast_bot.egg-info/SOURCES.txt
+src/uzbekistan_forecast_bot.egg-info/dependency_links.txt
+src/uzbekistan_forecast_bot.egg-info/top_level.txt
