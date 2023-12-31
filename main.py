@@ -7,11 +7,10 @@ from aiogram.utils import executor
 from data import get_weather_data_weekly, get_weather_data_daily
 
 API_TOKEN = "6839117577:AAGALrPMqHczM6rpxq7wMyiUqO8lk1wUJRE"
-PROXY_URL = "proxy.server:3128"
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token=API_TOKEN, proxy=PROXY_URL)
+bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 LatLon = []
