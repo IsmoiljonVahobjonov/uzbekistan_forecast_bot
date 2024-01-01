@@ -1,12 +1,13 @@
 import logging
-
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import ParseMode
 from aiogram.utils import executor
-
+import os
+from dotenv import load_dotenv
 from data import get_weather_data_weekly, get_weather_data_daily
 
-API_TOKEN = "6839117577:AAGALrPMqHczM6rpxq7wMyiUqO8lk1wUJRE"
+API_TOKEN = os.getenv("6839117577:AAGALrPMqHczM6rpxq7wMyiUqO8lk1wUJRE")
+
 
 logging.basicConfig(level=logging.INFO)
 
