@@ -6,6 +6,8 @@ import os
 from dotenv import load_dotenv
 from data import get_weather_data_weekly, get_weather_data_daily
 
+load_dotenv()
+
 API_TOKEN = os.getenv("API_TOKEN")
 
 
